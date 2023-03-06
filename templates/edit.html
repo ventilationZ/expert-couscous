@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+
+
+<div class="sc-eWVLlQ fTyFAW">
+    <h2>Register Here</h2>
+            <br>
+            <form action="/signup" method="post">
+                {% csrf_token %}
+
+    <div id="input-container" class="sc-flMpop fUZDmc">
+        <div class="sc-hOqruk dOGhrv">
+            <label for="first" class="sc-jONnzC XRdMS">First Name</label>
+            <div class="sc-hlTwrV iBEHGg" tabindex="-1">
+                <input autocomplete="given-name" id="first" name="first" placeholder="" type="text" maxlength="15" data-tag-name="First Name" class="sc-eLgNKc dERrei" value="">
+                <div class="sc-bTvSiT kfzjAH">
+
+                </div>
+            </div>
+            <p id="first-error" class="sc-kIeSZW DBpBL sc-dtwnrN uYFmk" type="primary">
+                <span>&nbsp;</span>
+            </p>
+        </div>
+    </div>
+        <div id="input-container" class="sc-flMpop fUZDmc">
+        <div class="sc-hOqruk dOGhrv">
+            <label for="first" class="sc-jONnzC XRdMS">Middle Name</label>
+            <div class="sc-hlTwrV iBEHGg" tabindex="-1">
+                <input autocomplete="given-name" id="first" name="first" placeholder="" type="text" maxlength="15" data-tag-name="First Name" class="sc-eLgNKc dERrei" value="">
+                <div class="sc-bTvSiT kfzjAH">
+
+                </div>
+            </div>
+            <p id="first-error" class="sc-kIeSZW DBpBL sc-dtwnrN uYFmk" type="primary">
+                <span>&nbsp;</span>
+            </p>
+        </div>
+    </div>
+    <div id="input-container" class="sc-flMpop fUZDmc">
+        <div class="sc-hOqruk dOGhrv">
+            <label for="last" class="sc-jONnzC XRdMS">Last Name</label>
+            <div class="sc-hlTwrV eUfbbI" tabindex="-1">
+                <input autocomplete="family-name" id="last" name="last" placeholder="" type="text" maxlength="16" data-tag-name="Last Name" class="sc-eLgNKc dERrei" value="">
+                <div class="sc-bTvSiT kfzjAH">
+
+                </div>
+            </div>
+            <p id="last-error" class="sc-kIeSZW iIYGFN sc-dtwnrN uYFmk" type="alert">This field is required</p>
+        </div>
+    </div>
+    <div id="input-container" class="sc-flMpop fUZDmc">
+        <div class="sc-hOqruk dOGhrv">
+            <label for="email" class="sc-jONnzC XRdMS">Email (username)
+            </label>
+            <div class="sc-hlTwrV iBEHGg" tabindex="-1">
+                <input autocomplete="email" id="email" name="email" placeholder="" type="email" maxlength="64" data-tag-name="Email" class="sc-eLgNKc dERrei" value="">
+                <div class="sc-bTvSiT kfzjAH">
+
+                </div>
+            </div>
+            <p id="email-error" class="sc-kIeSZW DBpBL sc-dtwnrN uYFmk" type="primary">
+                <span>&nbsp;
+                </span>
+            </p>
+        </div>
+    </div>
+    <div id="input-container" class="sc-flMpop fUZDmc">
+        <div class="sc-dFJtaz fCQrOu">
+            <label for="password" class="sc-jONnzC XRdMS">Password</label>
+            <div class="sc-hlTwrV iBEHGg" tabindex="-1">
+                <input autocomplete="off" id="password" name="password" placeholder="" type="password" maxlength="32" data-tag-name="Password" class="sc-eLgNKc dERrei" value="">
+                <div class="sc-bTvSiT kfzjAH">
+
+                </div>
+            </div>
+            <p id="password-error" class="sc-kIeSZW DBpBL sc-gInthZ aHcCj" type="primary">
+                <span>&nbsp;</span>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

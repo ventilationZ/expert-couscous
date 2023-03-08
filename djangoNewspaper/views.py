@@ -8,6 +8,14 @@ def edit_page(request):
     return render(request, "edit.html")
 
 
+def subscribe_page(request):
+    return render(request, "subscribe.html")
+
+
+def dar_page(request):
+    return render(request, "dar.html")
+
+
 def insertData(request):
     if request.method == "POST":
         name = request.POST.get('name')

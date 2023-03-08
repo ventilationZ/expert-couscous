@@ -18,5 +18,7 @@ from django.urls import path
 from .import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index_page, name='index'),
+    path('', views.subscribe_page, name='subscribe'),
+    path('edit/', views.edit_page, name='edit'),
+    path('dar/', views.dar_page, name='dar'),
 ]
